@@ -7,7 +7,8 @@
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "jest",
-    "cluster": "node src/cluster.js"
+    "cluster": "node src/cluster.js",
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
     "axios": "^1.3.4",
