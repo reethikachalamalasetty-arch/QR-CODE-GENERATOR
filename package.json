@@ -1,0 +1,48 @@
+{
+  "name": "scalable-qr-system",
+  "version": "1.0.0",
+  "description": "High-performance QR code generation system",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "cluster": "node src/cluster.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.1.5",
+    "joi": "^17.9.1",
+    "node-cron": "^3.0.2",
+    "pg": "^8.10.0",
+    "qrcode": "^1.5.3",
+    "rate-limit-redis": "^3.0.1",
+    "redis": "^4.6.5",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "qr-code",
+    "scalable",
+    "concurrent",
+    "api",
+    "nodejs",
+    "redis",
+    "postgresql"
+  ],
+  "author": "QR System Team",
+  "license": "MIT"
+}
